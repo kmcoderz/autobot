@@ -1,0 +1,8 @@
+url:http://www.lenskart.com
+name:LensMate
+email:service@lenskart.com
+gender:male
+botmaster:Team Babbler
+organization:Lenskart
+version:0.0.1
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>STORECREDIT</pattern>
+		<template>
+            Enter you email to get <set name = "topic">storecredit</set> info.
+        </template>
+	</category>
+	<category>
+		<pattern>WALLET</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>STORECREDIT *</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>BALANCE *</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE STORECREDIT *</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE BALANCE *</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>WALLET BALANCE</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE WALLET BALANCE</pattern>
+		<template>
+            <srai>STORECREDIT</srai>
+        </template>
+	</category>
+	<topic name = "storecredit">
+		<category>
+		 	<pattern>*</pattern>
+		 	<template><fetch method="storeCredit"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+</aiml>

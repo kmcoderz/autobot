@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>STORE</pattern>
+		<template>
+            I can help you in finding nearest <set name = "topic">store</set>. Which city do you live?
+        </template>
+	</category>
+	<category>
+		<pattern>STORES</pattern>
+		<template>
+            <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>NEAREST STORES</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>NEAREST STORE</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>STORE NEAR *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>NEAREST STORE IN *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>STORE IN *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE STORE IN *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE STORE NEAR *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE STORES NEAR *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE STORE IN *</pattern>
+		<template>
+            <think><fetch method="nearestStore"><star/></fetch></think>
+        </template>
+	</category>
+	<category>
+		<pattern>STORES *</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>STORE *</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ STORES</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ STORE</pattern>
+		<template>
+           <srai>STORE</srai>
+        </template>
+	</category>
+	<topic name = "store">
+		<category>
+		 	<pattern>*</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+	<topic name = "store">
+		<category>
+		 	<pattern>MY CITY *</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+	<topic name = "store">
+		<category>
+		 	<pattern>MY CITY IS *</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+	<topic name = "store">
+		<category>
+		 	<pattern>CITY NAME IS *</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+	<topic name = "store">
+		<category>
+		 	<pattern>CITY NAME *</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic> 
+	<topic name = "store">
+		<category>
+		 	<pattern>CITY *</pattern>
+		 	<template><fetch method="nearestStore"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+</aiml>

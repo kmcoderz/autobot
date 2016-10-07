@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>RETURN POLICY</pattern>
+		<template>
+            Lenskart is committed to providing you great quality products at affordable prices.In the rare case that you aren't fully satisfied with the product, find the product is not 'As described' on our website, or is received in a 'damaged' condition, we allow you to Initiate a return within 14 days of delivery.
+			<think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>QUALITY</pattern>
+		<template>
+            Quality is at the core of Lenskart’s products. Our plastic frames are made from the best quality acetate and our metal frames are made only from steel or titanium – this makes our glasses corrosion and breakage resistant. We also offer a 1 year warranty on all our glasses – in case you have any issues, call us, and we’ll make sure it gets resolved!
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>ADDRESS</pattern>
+		<template>
+            Lenkskart Solutions Pvt. Ltd. | D-12/2, Okhla Phase 2, New Delhi - 110020
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>3D</pattern>
+		<template>
+            Unsure? Use our 3D Try-on! Feature – click ‘3D Try-on!’ on the product page of your chosen frame, follow the instructions, and see a 180 degree view of yourself with your chosen frames! Share with your friends and family to find the perfect pair! In addition, we offer a unique ‘Free Home Trial’ service, across India. Select up to 5 frames (from our non-free frame categories) and our delivery executive will bring them to your doorstep for trial!
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>MAKE MY EYEGLASS</pattern>
+		<template>
+            We promise to deliver your purchases to you as quickly as possible. We dispatch your order within ~5-12 days of order confirmation (and receipt of your prescription, if needed), based on the products ordered. It takes 2-5 days to get delivered to you post-dispatch, based on your location.
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCEL</pattern>
+		<template>
+            We custom make each lens specifically for you - we can't reuse a lens cut for you, for anyone else, should you choose to cancel your order. However, we want you to be able to try Lenskart 100% risk-free. Thereafter, if you would like to cancel your order before if has reached you.
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>BRANDS AVAILABLE</pattern>
+		<template>
+            All the brands sold on Lenskart are chosen after carefully looking at their product quality, manufacturing processes, and customer service. There are some brands which we have brought to Indian from countries such as Italy, to introduce them to the Indian market and you to their superior products.
+            <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>BRANDS AVAILABLE *</pattern>
+		<template>
+            <srai>BRANDS AVAILABLE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>LENSKART ADDRESS *</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>ADDRESS *</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>OFFICE ADDRESS</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>WAREHOUSE</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>WAREHOUSE ADDRESS</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>WAREHOUSE ADDRESS *</pattern>
+		<template>
+            <srai>ADDRESS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCEL *</pattern>
+		<template>
+            <srai>CANCEL</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCEL POLICY *</pattern>
+		<template>
+            <srai>CANCEL</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCEL POLICY</pattern>
+		<template>
+            <srai>CANCEL</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCELLATION POLICY</pattern>
+		<template>
+            <srai>CANCEL</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>CANCELLATION POLICY *</pattern>
+		<template>
+            <srai>CANCEL</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>QUALITY *</pattern>
+		<template>
+            <srai>QUALITY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ QUALITY</pattern>
+		<template>
+            <srai>QUALITY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>3D *</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DITTO</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DITTO *</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ DITTO</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ 3D *</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>3D TRY *</pattern>
+		<template>
+            <srai>3D</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>PRESCRIPTION</pattern>
+		<template>
+             It’s ok if you don’t have your prescription handy while placing the order. Simply place the order for the frame and provide your power using the links provided in the SMS and email that we send you, post order completion. It’s that simple!
+             <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>POWER</pattern>
+		<template>
+             You can submit your power details after you complete your purchase. We offer multiple options to provide your prescription to us – upload a picture, enter it online, email us (power[at]lenskart.com) or write to us on support[at]lenskart[dot]com
+             <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>SIZE</pattern>
+		<template>
+             At Lenskart, we offer glasses in 3 sizes – small, medium, and large. Click the ‘Frame Size’ link at the bottom of the page to know your size. ~80-90% of our customers find a medium size frame to be the best fit.
+             <think><set name = "topic">faq</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>OPTO</pattern>
+		<template>
+             Lenskart offers OPTO, a Home Eye Check-up service to help you ascertain your eye power. Select the ’Home Eye Check-up ‘option after check-out or on our homepage, pick a time that is convenient and our trained optometrists will be there to assist you!
+             <think><set name = "topic">faq</set></think> 
+        </template>
+	</category>
+	<category>
+		<pattern>OPTO *</pattern>
+		<template>
+             <srai>OPTO</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ OPTO *</pattern>
+		<template>
+             <srai>OPTO</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ OPTO</pattern>
+		<template>
+             <srai>OPTO</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>FIT</pattern>
+		<template>
+             <srai>SIZE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>FIT *</pattern>
+		<template>
+             <srai>SIZE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>SIZE *</pattern>
+		<template>
+             <srai>SIZE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ SIZE AND FIT *</pattern>
+		<template>
+             <srai>SIZE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ FIT AND SIZE *</pattern>
+		<template>
+             <srai>SIZE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>PRESCRIPTION *</pattern>
+		<template>
+            <srai>PRESCRIPTION</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>POWER *</pattern>
+		<template>
+            <srai>POWER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>EYE POWER *</pattern>
+		<template>
+            <srai>POWER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ EYE POWER *</pattern>
+		<template>
+            <srai>POWER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ EYE POWER</pattern>
+		<template>
+            <srai>POWER</srai>
+        </template>
+	</category>
+	
+	<category>
+		<pattern>_ PRESCRIPTION *</pattern>
+		<template>
+            <srai>PRESCRIPTION</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ PRESCRIPTION</pattern>
+		<template>
+            <srai>PRESCRIPTION</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>AVAILABLE BRANDS *</pattern>
+		<template>
+            <srai>BRANDS AVAILABLE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ AVAILABLE BRANDS</pattern>
+		<template>
+            <srai>BRANDS AVAILABLE</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>RETURN POLICY *</pattern>
+		<template>
+            <srai>RETURN POLICY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>RETURN</pattern>
+		<template>
+            <srai>RETURN POLICY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>MAKE MY EYEGLASS *</pattern>
+		<template>
+            <srai>MAKE MY EYEGLASS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>MAKE EYEGLASS</pattern>
+		<template>
+            <srai>MAKE MY EYEGLASS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>EYEGLASS MAKE</pattern>
+		<template>
+            <srai>MAKE MY EYEGLASS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>MAKE MY GLASS</pattern>
+		<template>
+            <srai>MAKE MY EYEGLASS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ RETURN POLICY</pattern>
+		<template>
+            <srai>RETURN POLICY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ RETURN POLICY *</pattern>
+		<template>
+            <srai>RETURN POLICY</srai>
+        </template>
+	</category>
+</aiml>

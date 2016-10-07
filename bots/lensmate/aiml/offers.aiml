@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>OFFER</pattern>
+		<template>
+            Sunglass Sale : Discount @ 30% - 70% | First Frame Free | Ray-Ban - Upto 30% Off | VC Sunglasses - Buy 1 Get 1 Free | Oakley - Upto 10% Off 
+			<think><set name = "topic">offer</set></think>
+        </template>
+	</category>
+	<category>
+		<pattern>OFFERS</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DISCOUNT</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DISCOUNT *</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DISCOUNTS</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DISCOUNTS *</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>NEW OFFERS</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>OFFERS AVAILABLE</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>OFFERS *</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ OFFERS</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ OFFERS *</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>OFFER *</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ OFFER</pattern>
+		<template>
+            <srai>OFFER</srai>
+        </template>
+	</category>
+</aiml>

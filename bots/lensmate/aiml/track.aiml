@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>TRACK</pattern>
+		<template>
+            I can help you in <set name = "topic">tracking</set> your order. Please share your Order Id.
+		</template>
+	</category>
+	<category>
+		<pattern>TRACKING</pattern>
+		<template>
+            <srai>TRACK</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>TRACK ORDER</pattern>
+		<template>
+            <srai>TRACK</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>TRACK ORDER *</pattern>
+		<template>
+            <srai>TRACK</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>TRACK *</pattern>
+		<template>
+            <srai>TRACK</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ TRACK</pattern>
+		<template>
+            <srai>TRACK</srai>
+        </template>
+	</category>
+	<topic name = "tracking">
+		<category>
+		 	<pattern>*</pattern>
+		 	<template><fetch method="trackOrder"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+</aiml>

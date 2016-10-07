@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>STATUS</pattern>
+		<template>
+            Enter you order id to get <set name = "topic">status</set> info.
+        </template>
+	</category>
+	<category>
+		<pattern>ORDER STATUS</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>ORDER NO</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>ORDER NUMBER</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ ORDER NO</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>ORDER NO *</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>STATUS OF MY ORDER</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>STATUS OF ORDER</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ ORDER STATUS</pattern>
+		<template>
+            <srai>STATUS</srai>
+        </template>
+	</category>
+	<topic name = "status">
+		<category>
+		 	<pattern>*</pattern>
+		 	<template><fetch method="orderStatus"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+</aiml>

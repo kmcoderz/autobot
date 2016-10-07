@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+        <pattern>HELP</pattern>
+        <template>
+           Sure I can will help you.
+           Here are something you can ask for |
+           #Order Status | #Offers | #Nearest Store | #Return Policy | #Cancel Policy 
+           <think><set name = "topic">help</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern>HELPS</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELP ME</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>_ HELP</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>_ HELPS</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>_ HELP *</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELP *</pattern>
+        <template>
+            <srai>HELP</srai>
+        </template>
+    </category>
+</aiml>

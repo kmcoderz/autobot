@@ -1,0 +1,6 @@
+url:http://www.findeasy.co.in
+name:Columbus
+gender:male
+botmaster:Kalyan Mondal
+organization:http://icarusinformatics.com/
+version:0.0.1

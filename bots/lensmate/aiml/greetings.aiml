@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>HI</pattern>
+		<template>
+			<random>
+				<li>Hello! How are you? <think><set name = "topic">greetings</set></think></li>
+				<li>Hello! <think><set name = "topic">greetings</set></think></li>
+				<li>Hi <think><set name = "topic">greetings</set></think></li>
+				<li>Good to see you <think><set name = "topic">greetings</set></think></li>
+				<li>Hi How may I assist you?<think><set name = "topic">greetings</set></think></li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>THANKS</pattern>
+		<template>
+			<random>
+				<li>Thank you for sharing your experience with us and most importantly for your patience and confidence in our service.<think><set name = "topic">greetings</set></think></li>
+				<li>Have a great day ahead. Take Care !!<think><set name = "topic">greetings</set></think></li>
+				<li>Thanks<think><set name = "topic">greetings</set></think></li>
+				<li>You're welcome.<think><set name = "topic">greetings</set></think></li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>THANKS *</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ THANKS *</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>BYE</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ BYE</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOOD BYE</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOODBYE</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOODBYE *</pattern>
+		<template>
+            <srai>THANKS</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>HELLO *</pattern>
+		<template>
+            <srai>HI</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>HELLO</pattern>
+		<template>
+            <srai>HI</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOOD MORNING</pattern>
+		<template>
+            <srai>HI</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOOD MORNING *</pattern>
+		<template>
+            <srai>HI</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GOOD</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>GOOD *</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>GREAT *</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>GREAT</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>COOL</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+	<category>
+		<pattern>COOL *</pattern>
+		<template>
+			<random>
+				<li>Here you are.</li>
+				<li>There you go.</li>
+			</random>
+        </template>
+	</category>
+</aiml>

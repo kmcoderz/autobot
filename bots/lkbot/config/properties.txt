@@ -1,0 +1,8 @@
+url:http://www.lenskart.com
+name:Columbus
+email:service@lenskart.com
+gender:unknown
+botmaster:Kalyan
+organization:Lenskart
+version:0.0.4
+

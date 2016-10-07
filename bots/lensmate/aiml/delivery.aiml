@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+	<category>
+		<pattern>DELIVERY</pattern>
+		<template>
+            I can help you with order <set name = "topic">delivery</set> date. Please share your Order Id.
+		</template>
+	</category>
+	<category>
+		<pattern>DELIVERY *</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>ORDER DELIVERY</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GET ORDER</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>DELIVERED *</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>GET MY ORDER *</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ GET MY ORDER</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>RECEIVE</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>RECEIVE ORDER *</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>RECEIVE MY ORDER *</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<category>
+		<pattern>_ RECEIVE ORDER</pattern>
+		<template>
+            <srai>DELIVERY</srai>
+        </template>
+	</category>
+	<topic name = "delivery">
+		<category>
+		 	<pattern>*</pattern>
+		 	<template><fetch method="deliveryDate"><star/></fetch><think><set name = "topic">greetings</set></think></template>
+	 	</category>
+	</topic>
+</aiml>
